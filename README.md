@@ -46,13 +46,13 @@ In Phase 2, we are trying to take the measurements of the person using the camer
 
 <img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/6.png" width="400" height="700">
 
-<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/7.png" width="400" height="700">
+<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/7.png" width="450" height="700">
 
 - Above screenshots will help you understand what actually the application is doing and how all the measurements are being taken.
 
-<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/8.png" width="400" height="700">
+<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/8.png" width="450" height="700">
 
-<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/9.png" width="400" height="700">
+<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/9.png" width="500" height="700">
 
 - First when we set the camera height, we are positioning the marker at the person’s feet and then clicking ’Find Depth’ button to find the distance between the person and the camera. Straight after that we will point the camera at the person’s head and click the button ’Get height’ and we will get height using the logic explained above. 
 - Also, for getting the width of person we are taking the pointer to the starting point and clicking on the button ’find length’ then we are taking the pointer to the end of the person’s waist and then again clicking on the button will get you the width of the person (whatever you are considering as waist like some person could also take shoulders to measure the width.)
