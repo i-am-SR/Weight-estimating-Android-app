@@ -5,18 +5,18 @@ Smartphones are all over the place! The time has passed for tools to be needed t
 
 **Project Setup Permissions**
 The architecture consists of 2 systems. The configurations and functions are described below:  
-# Android Device  
-Make Model: OnePlus 5T
-OS: Android 7.0 (Nougat)  
-# Cloud Server  
+### Android Device  
+- Make Model: OnePlus 5T
+- OS: Android 7.0 (Nougat)  
+### Cloud Server  
 Setup on a different Network, located on the cloud. An Amazon Web Services is used.  
-OS: Linux  
-RAM: 2gb DDR4  
+- OS: Linux  
+- RAM: 2gb DDR4  
 The android device communicated with the server using a bidirectional SSH.  
 
-**Architecture Setup**  
- Server and android application are using GET and POST responses in JSON.  
- Cloud server has the Regression algorithm which receives the JSON response via the GET method and predicts the weight. This prediction is sent back to the Android mobile device using POST method.  
+###**Architecture Setup**  
+- Server and android application are using GET and POST responses in JSON.  
+- Cloud server has the Regression algorithm which receives the JSON response via the GET method and predicts the weight. This prediction is sent back to the Android mobile device using POST method.  
 
 **Our Implementation**  
 We have implemented the project in different phases where in each phase we will be trying to overcome the hurdles which we are facing.  
