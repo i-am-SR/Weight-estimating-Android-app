@@ -13,3 +13,8 @@ Setup on a different Network, located on the cloud. An Amazon Web Services is us
 OS: Linux  
 RAM: 2gb DDR4  
 The android device communicated with the server using a bidirectional SSH.  
+
+**Architecture Setup**  
+ Server and android application are using GET and POST responses in JSON.  
+ Cloud server has the Regression algorithm which receives the JSON response via the GET method and predicts the weight. This prediction is sent back to the Android mobile device using POST method.  
+
