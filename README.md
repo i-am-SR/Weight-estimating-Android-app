@@ -47,4 +47,9 @@ In Phase 3, we first tried to calculate the weight using the general formula. Bu
 
 So this way our application works and try to estimate the person’s weight as accurately as possible.
 
+### Limitation ##  
+There are certain limitation to our application which are defined as follows:
+- The first limitation of our model is that we are getting the height of the camera from user, so there would be an inconsistency in data (because no person can know the exact height by just looking at it). So this would also create inconsistency in calculation of height which will in turn drop down the accuracy of weight measurement.  
+- Here we are using the data set with only gender and height of the person. Because the formula which we used before was giving us the great amount inaccurate estimation so we changed the estimation of weight using the machine learning model. But also we were not able to find the large amount of data set which is having the gender, height, waist width and weight of that person. Because we need all these factors to calculate very accurate weight. But as the model was giving more accuracy than the formula we stuck to the model and which is having only gender and height of a person, but still it is giving good accuracy in weight estimation.  
+
 
