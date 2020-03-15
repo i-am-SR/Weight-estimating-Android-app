@@ -39,7 +39,15 @@ In Phase 2, we are trying to take the measurements of the person using the camer
 <img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/4.png" width="400" height="700">
 
 - The only factor which we need to consider to calculate person’s height is at what height the camera is from the ground. We are using this formula to calculate the person’s height and depth (at what distance person is standing from the camera), using the camera height. It is as shown in figure 5 [2].
+
+<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/5.png" width="600" height="400">
+
 - All the other things can be measured using these measurements by using sensors like gyroscope, accelerometer and magnetometer which are inbuilt in the phone.
+
+<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/6.png" width="400" height="700">
+
+<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/7.png" width="400" height="700">
+
 - Above screenshots will help you understand what actually the application is doing and how all the measurements are being taken.
 - First when we set the camera height, we are positioning the marker at the person’s feet and then clicking ’Find Depth’ button to find the distance between the person and the camera. Straight after that we will point the camera at the person’s head and click the button ’Get height’ and we will get height using the logic explained above. 
 - Also, for getting the width of person we are taking the pointer to the starting point and clicking on the button ’find length’ then we are taking the pointer to the end of the person’s waist and then again clicking on the button will get you the width of the person (whatever you are considering as waist like some person could also take shoulders to measure the width.)
