@@ -31,7 +31,13 @@ First of what we worked on is to gather the information for the idea to work and
 
 ## Phase 2 ##  
 In Phase 2, we are trying to take the measurements of the person using the camera.  
-- Here the screen will contain multiple buttons and one user input field where the user has to input the height of the camera otherwise he/she cannot proceed any further.
+- Here the screen will contain multiple buttons and one user input field where the user has to input the height of the camera otherwise he/she cannot proceed any further.  
+
+
+<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/3.png" width="400" height="700">
+
+<img src="https://github.com/i-am-SR/Weight_measuring_Android_App/blob/master/Images/4.png" width="400" height="700">
+
 - The only factor which we need to consider to calculate person’s height is at what height the camera is from the ground. We are using this formula to calculate the person’s height and depth (at what distance person is standing from the camera), using the camera height. It is as shown in figure 5 [2].
 - All the other things can be measured using these measurements by using sensors like gyroscope, accelerometer and magnetometer which are inbuilt in the phone.
 - Above screenshots will help you understand what actually the application is doing and how all the measurements are being taken.
